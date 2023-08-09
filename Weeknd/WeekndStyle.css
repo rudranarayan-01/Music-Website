@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Josefin+Sans&display=swap');
+body{
+    background-color: black;
+    color: blueviolet;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Delicious Handrawn', sans-serif;
+    background-color: rgb(10, 10, 10);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:70px ;
+    
+}
+nav ul li{
+    padding: 0 8px ;
+    cursor: pointer;
+    text-decoration: none;
+}
+.brand img{
+    width: 109px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.container{
+    min-height: 60vh;
+    font-family:'Josefin Sans',sans-serif; 
+    background-color: rgb(10, 10, 10);
+    color:  rgb(242, 236, 236);
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url('bg1.jpg');
+}
+
+.bottom{
+    position: sticky;
+    height: 70px;
+    background-color: rgb(10, 10, 10);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.songInfo{
+    font-family: 'Delicious Handrawn', sans-serif;
+    position: absolute;
+    left: 9.5vw;
+
+}
+.songInfo img{
+    margin-right: 1.5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.icons{
+    margin-top: 5px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 40px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(4, 4, 4);
+    color: rgb(238, 236, 240);
+    margin: 17px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 43px;
+}
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 34px; 
+    
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    margin-left: 10px;
+    cursor: pointer;
+}
